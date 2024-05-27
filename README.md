@@ -8,6 +8,7 @@ Reference: [https://exp10it.io/2024/05/通过-java-fuzzing-挖掘-nexus-reposito
 
 ```bash
 # build test harness
+mvn clean package -DskipTests
 mv target/JettyFuzz-1.0.jar /path/to/jazzer/workdir/JettyFuzz.jar
 
 # run jazzer
